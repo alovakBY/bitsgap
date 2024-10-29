@@ -1,0 +1,19 @@
+.root {
+  width: 16px;
+  height: 16px;
+
+  .char {
+    fill: #A2A7B9;
+  }
+
+  &:hover {
+    .char {
+      fill: rgb(133, 137, 151);
+    }
+  }
+}
+
+.circle {
+  fill: #565861;
+}
+

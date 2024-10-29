@@ -1,0 +1,79 @@
+.root {
+  padding: 8px 10px;
+  border-radius: 8px;
+  background-color: #2B273B;
+}
+
+.topPanel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleWrapper {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #A2A7B9;
+  letter-spacing: 0.25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  &.active {
+    color: #FFF;
+  }
+}
+
+.addProfitButton {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #0078FF;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  cursor: pointer;
+  gap: 12px;
+}
+
+.projectedProfit {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 24px;
+  gap: 8px;
+
+  .title {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #A2A7B9;
+  }
+
+  .separator {
+    flex-grow: 1;
+    border-bottom: 1px dashed #818C99;
+  }
+
+  .value {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+
+    span {
+      color: #FFF;
+    }
+  }
+}
+
+.error {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #F96C5A;
+  text-align: center;
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid #333545;
+  border-radius: 8px;
+}

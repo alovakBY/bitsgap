@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #161617;
+}
+
+body {
+  font-family: Inter, Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#root {
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 100%;
+}

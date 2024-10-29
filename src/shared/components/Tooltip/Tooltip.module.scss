@@ -1,0 +1,17 @@
+.root {
+  font-size: 15px;
+  color:  #fff;
+  max-width: 240px;
+  padding: 15px;
+  box-shadow: 0 5px 24px 0 rgba(0, 0, 0, 0.45);
+  border-radius: 4px;
+  background-color: #252530;
+
+  .arrow {
+    color: #252530;
+  }
+  
+  .popper {
+    top: 0;
+  }
+}

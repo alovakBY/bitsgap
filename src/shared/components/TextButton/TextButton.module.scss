@@ -1,0 +1,21 @@
+.root {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 100%;
+  color: #0083ff;
+  vertical-align: baseline;
+  text-transform: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background: none;
+
+  &.focused {
+    outline: 2px solid #0083ff;
+  }
+
+  &:hover {
+    color: #0078FF;
+    background: none;
+  }
+}

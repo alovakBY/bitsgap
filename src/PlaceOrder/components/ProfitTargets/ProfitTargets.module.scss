@@ -1,0 +1,44 @@
+.root {
+  margin-top: 8px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 46px 1fr 83px;
+  column-gap: 8px;
+
+  &.headerRow {
+    margin-bottom: 8px;
+  }
+
+  &.bodyRow {
+    padding-bottom: 9px;
+    border-bottom: 1px solid rgba(162, 167, 185, 0.8);
+
+    &.error {
+      border-bottom: 1px solid rgba(249, 108, 90, 0.8);
+    }
+
+
+    & + & {
+      padding-top: 12px;
+    }
+  }
+}
+
+.title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #A2A7B9;
+  white-space: nowrap;
+
+  &:last-child {
+    text-align: right;
+  }
+}
+
+
+
+
+
